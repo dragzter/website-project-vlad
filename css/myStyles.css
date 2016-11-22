@@ -1,0 +1,162 @@
+body, html {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    height: 100%;
+    background-image: url("livingroom.jpg");
+
+    
+}
+#main {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#main div {
+    padding: 10px;
+    font-size: 21px;
+}
+#main img {
+    float: left;
+    height: 240px;
+    clear:both;
+    padding: 10px;
+}
+#main #box1 {
+  width:800px;
+  height: 450px;
+  border-right: 1px solid rgb(0,190,0);
+  border-bottom: solid 1px rgb(0,190,0);
+  box-shadow: 2px 2px 40px black;
+  margin: auto;
+}
+#main p {
+    clear: right;
+    padding: 10px;
+}
+#main #box2 {
+  width:800px;
+  height: 450px;
+  border-right: 1px solid rgb(0,190,0);
+  border-bottom: solid 1px rgb(0,190,0);
+  box-shadow: 2px 2px 40px black;
+  margin: auto;
+  }
+#main #box3 {
+   box-shadow: 2px 2px 40px black;
+  width:800px;
+  height: 450px;
+  border-right: 1px solid rgb(0,190,0);
+  border-bottom: solid 1px rgb(0,190,0);
+  margin: auto;
+}
+#main h1, h3, h2 {
+    text-align: center;
+}
+#header {
+    background-color: rgb(20,20,20);
+    color: white;
+    text-align: center;
+    height: 100px;
+    min-width: 900px;
+    
+}
+#header h1 {
+    margin: 0 auto;
+    padding-top: 20px;
+}
+#header h5 {
+    margin: 0 auto;
+    padding-top: 10px;
+}
+#header a {
+    text-decoration: none;
+    color: white;
+    
+}
+#header h5:hover {
+    color:rgb(0,190,0);
+}
+
+#nav ul {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0em;
+    background-color: rgb(30,30,30);
+    min-width: 900px;
+    
+}
+#nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    width:170px;
+    border-left: solid 1px rgb(0,190,0);
+    border-right: solid 1px rgb(0,190,0);
+    margin-right: -5px;
+}
+#nav ul li a{
+    padding: 6px;
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+#nav ul li a:hover{
+    background-color: rgb(60,60,60);
+    border-left: solid 7px rgb(190,190,190);
+    border-right: solid 7px rgb(190,190,190);
+}
+#main {
+    clear: both;
+}
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+form {
+    margin:0 auto;
+    width:700px;
+    margin-top: 20px;
+    
+    
+}
+
+/* Style the text boxes */
+input, textarea {
+	width:680px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+input {
+    height: 40px;
+}
+textarea {
+	height:213px;
+}
+#contactForm {
+    display: block;
+    padding-top:30px;
+    width:800px;
+    height: 900px;
+    box-shadow: 2px 2px 40px black;
+    margin: auto;
+}
+#submit {
+    width:127px;
+    height:38px;
+    text-indent:0px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    
+}
+	#submit:hover {
+	    opacity:.9;
+}
