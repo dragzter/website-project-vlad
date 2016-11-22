@@ -1,4 +1,5 @@
-
+//this is my issue, the php wont run even when i threw the whole site onto wamp, i get 2 errors one on line 1 and one on line 15, some research 
+// revealed that i need to have smtp running? not sure how to do that, also, i know php is not ideal, json might be better for this?
 <?php
     $name = $_POST['name'];
     $email = $_POST['email'];
