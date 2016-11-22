@@ -1,0 +1,8 @@
+Ok so, the files are pretty self explanatory.  The php file is supposed to take user input and mail() to my website.  
+Unless the site is on a server it will not work, it will simply link to the php file and display the code in the 
+browser window.  OK, so i hosted the site and all associated assets through wamp.  It no longer "just" displayed the code,
+However it showed me a couple errors having to do with SMTP, which i am not familiar with.  Is Json better for this? I just want 
+the form to mail me the input from the form.  I took the php code from a tutorial and adapted it as best I could.  Appreciate any
+feedback you got!
+
+Thanks!
